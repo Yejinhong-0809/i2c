@@ -1,0 +1,14 @@
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 14:01:16 on Aug 08,2023
+vlog -reportprogress 300 -cover bst -timescale=1ns/1ps -l comp.log "+incdir+../../rkv_dw_apb_i2c/src" "+incdir+../agents/lvc_apb3" "+incdir+../agents/lvc_i2c" "+incdir+../cfg" "+incdir+../cov" "+incdir+../reg" "+incdir+../env" "+incdir+../seq_lib" "+incdir+../seq_lib/elem_seqs" "+incdir+../seq_lib/user_elem_seqs" "+incdir+../seq_lib/user_virt_seqs" "+incdir+../tests/user_tests" "+incdir+../tests" -sv ../tb/rkv_i2c_tb.sv 
+-- Compiling module rkv_i2c_tb
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) ../tb/rkv_i2c_tb.sv(8): Using implicit +incdir+D:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package rkv_i2c_pkg
+-- Importing package lvc_apb_pkg
+-- Importing package lvc_i2c_pkg
+
+Top level modules:
+	rkv_i2c_tb
+End time: 14:01:16 on Aug 08,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,12 @@
+-html
+-htmldir
+D:/questasim64_10.6c/examples/rkv_i2c_tb_04/rkv_v2pro_i2c-RKV_I2C_TB_04/rkv_i2c_tb/sim/regr_ucdb_2023Aug05-21_44
+-assert
+-directive
+-cvg
+-code
+bcefst
+-threshL
+50
+-threshH
+90
